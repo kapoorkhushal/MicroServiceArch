@@ -1,0 +1,51 @@
+{
+  "Routes": [
+    {
+      "ServiceName": "UCNAGP.ServiceProviders",
+      "DownstreamPathTemplate": "/api/v1/ServiceProviders/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/ServiceProviders/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "ServiceName": "UCNAGP.ServiceProviders",
+      "DownstreamPathTemplate": "/api/v1/ServiceProviders",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/ServiceProviders",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "ServiceName": "UCNAGP.ServiceReceivers",
+      "DownstreamPathTemplate": "/api/v1/User",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/User",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "ServiceName": "UCNAGP.ServiceReceivers",
+      "DownstreamPathTemplate": "/api/v1/User/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/User/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "ServiceName": "UCNAGP.ServiceReceivers",
+      "DownstreamPathTemplate": "/api/v1/AccessService",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/AccessService",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "ServiceName": "UCNAGP.Services",
+      "DownstreamPathTemplate": "/api/v1/GetAllServices",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/GetAllServices",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "Host": "consul",
+    "Port": "8500",
+    "Type": "Consul"
+  }
+}

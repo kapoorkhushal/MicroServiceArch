@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eWcDN1Mrr/sAUl0qodq5cUmStkU9AvRDZGfBuP7yeJFQZUDfnXMn2Pe28pTbLYTX4v60xkoHzNu3Vi42g8Pq2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\khushalkapoor\\source\\repos\\UCNAGP\\ServiceReceivers\\ServiceReceivers.Domain\\ServiceReceivers.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

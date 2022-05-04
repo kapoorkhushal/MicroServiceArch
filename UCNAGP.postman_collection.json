@@ -1,0 +1,353 @@
+{
+	"info": {
+		"_postman_id": "c7589bd3-a769-46f2-9ab5-75317cbd0634",
+		"name": "UCNAGP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "APIGateway",
+			"item": [
+				{
+					"name": "ReleaseServiceProvider",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/ServiceProviders/6005C213-407E-4957-833A-005CEDD59A67",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"ServiceProviders",
+								"6005C213-407E-4957-833A-005CEDD59A67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllServices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/GetAllServices",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"GetAllServices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EngageServiceProvider",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"serviceProviderId\": \"6005C213-407E-4957-833A-005CEDD59A67\",\r\n  \"userId\": \"8611E98C-6627-4F5F-9D24-876BDD9E4DFC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/ServiceProviders",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"ServiceProviders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"TestUser\",\r\n  \"mobileNumber\": \"9836792717\",\r\n  \"address\": \"Test Address\",\r\n  \"pincode\": 8725\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/User",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/User/8611E98C-6627-4F5F-9D24-876BDD9E4DFC",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"User",
+								"8611E98C-6627-4F5F-9D24-876BDD9E4DFC"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Access Service",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"8611E98C-6627-4F5F-9D24-876BDD9E4DFC\",\r\n    \"serviceIds\": [\r\n        \"10279281-5128-433C-ACF6-30F732D4B39B\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/AccessService",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"AccessService"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "Get All Services",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/GetAllServices",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"GetAllServices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Service amount",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/GetAllServices/10279281-5128-433C-ACF6-30F732D4B39B",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"GetAllServices",
+								"10279281-5128-433C-ACF6-30F732D4B39B"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ServiceProvider",
+			"item": [
+				{
+					"name": "Engage Service Provider",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serviceProviderId\": \"6005C213-407E-4957-833A-005CEDD59A67\",\r\n    \"userId\": \"8611E98C-6627-4F5F-9D24-876BDD9E4DFC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/ServiceProviders",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ServiceProviders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Release Service Provider",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/ServiceProviders/6005C213-407E-4957-833A-005CEDD59A67",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"ServiceProviders",
+								"6005C213-407E-4957-833A-005CEDD59A67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Access Service Provider",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"pincode\": 1234,\r\n  \"serviceId\": \"10279281-5128-433C-ACF6-30F732D4B39B\",\r\n  \"userId\": \"8611E98C-6627-4F5F-9D24-876BDD9E4DFC\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/AccessServiceProvider",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"AccessServiceProvider"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ServiceReciever",
+			"item": [
+				{
+					"name": "Access Services",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"8611E98C-6627-4F5F-9D24-876BDD9E4DFC\",\r\n    \"serviceIds\": [\r\n        \"10279281-5128-433C-ACF6-30F732D4B39B\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/AccessService",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"AccessService"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/User/8611E98C-6627-4F5F-9D24-876BDD9E4DFC",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"User",
+								"8611E98C-6627-4F5F-9D24-876BDD9E4DFC"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"TestUser\",\r\n  \"mobileNumber\": \"9836792717\",\r\n  \"address\": \"Test Address\",\r\n  \"pincode\": 8725\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{scheme}}{{baseUrl}}/api/v1/User",
+							"host": [
+								"{{scheme}}{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"User"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

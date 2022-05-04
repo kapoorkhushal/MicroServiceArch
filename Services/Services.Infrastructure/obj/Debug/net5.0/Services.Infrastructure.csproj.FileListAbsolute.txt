@@ -1,0 +1,17 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Infrastructure.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\ref\Services.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Infrastructure.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Application.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\bin\Debug\net5.0\Services.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\ref\Services.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Infrastructure\obj\Debug\net5.0\Services.Infrastructure.pdb

@@ -1,0 +1,17 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceProviders.Application.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceProviders.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ref\ServiceProviders.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceProviders.Application.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceProviders.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceReceivers.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\bin\Debug\net5.0\ServiceProviders.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.csproj.AssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ref\ServiceProviders.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Application\obj\Debug\net5.0\ServiceProviders.Application.pdb

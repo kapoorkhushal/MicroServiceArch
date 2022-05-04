@@ -1,0 +1,17 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Infrastructure.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ref\ServiceReceivers.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Infrastructure.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Application.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\bin\Debug\net5.0\ServiceReceivers.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ref\ServiceReceivers.Infrastructure.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Infrastructure\obj\Debug\net5.0\ServiceReceivers.Infrastructure.pdb

@@ -1,0 +1,11 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\bin\Debug\net5.0\ServiceProviders.Domain.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\bin\Debug\net5.0\ServiceProviders.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\bin\Debug\net5.0\ref\ServiceProviders.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\bin\Debug\net5.0\ServiceProviders.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ref\ServiceProviders.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceProviders\ServiceProviders.Domain\obj\Debug\net5.0\ServiceProviders.Domain.pdb

@@ -1,0 +1,12 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\bin\Debug\net5.0\ServiceReceivers.Domain.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\bin\Debug\net5.0\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\bin\Debug\net5.0\ref\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\bin\Debug\net5.0\ServiceReceivers.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.csproj.AssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ref\ServiceReceivers.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\ServiceReceivers\ServiceReceivers.Domain\obj\Debug\net5.0\ServiceReceivers.Domain.pdb

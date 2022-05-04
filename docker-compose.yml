@@ -1,0 +1,110 @@
+version: "3.4"
+services:
+  consul-server:
+    image: hashicorp/consul:1.10.0
+    container_name: consul-server
+    restart: always
+    hostname: service-registry
+    volumes:
+     - ./consul/server.json:/consul/config/server.json:ro
+    networks:
+      - consul
+    ports:
+      - "8500:8500"
+      - "8600:8600/tcp"
+      - "8600:8600/udp"
+    command: "agent"
+
+  consul-client:
+    image: hashicorp/consul:1.10.0
+    container_name: consul-client
+    restart: always
+    volumes:
+     - ./consul/client.json:/consul/config/client.json:ro
+    networks:
+      - consul
+    command: "agent"
+    
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    environment:
+        RABBITMQ_ERLANG_COOKIE: guest
+        RABBITMQ_DEFAULT_USER: guest
+        RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - consul
+    ports:
+      - 5672:5672
+      - 15672:15672
+    hostname: rabbitmq
+
+  
+  api-gateway:
+    container_name: demo-api-gateway
+    depends_on:
+        - consul-server
+    networks:
+      - consul
+    build:
+      context: .
+      dockerfile: APIGateway.Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Docker
+    ports: 
+      - "5000:80" 
+      
+  Services-api:
+    container_name: demo-Services-api
+    hostname: Services
+    depends_on:
+        - consul-server
+    networks:
+      - consul
+    build:
+      context: .
+      dockerfile: Services.WebApi.Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+     - ServiceConfig__ServiceDiscoveryAddress=http://service-registry:8500/
+     - ServiceConfig__ServiceAddress=http://Services
+    ports: 
+      - "5003:80"
+
+  ServiceProviders-api:
+    container_name: demo-ServiceProviders-api
+    hostname: ServiceProviders
+    depends_on:
+        - consul-server
+    networks:
+      - consul
+    build:
+      context: .
+      dockerfile: ServiceProviders.WebApi.Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+     - ServiceConfig__ServiceDiscoveryAddress=http://service-registry:8500/
+     - ServiceConfig__ServiceAddress=http://ServiceProviders
+    ports: 
+      - "5001:80"
+
+  ServiceReceivers-api:
+    container_name: demo-ServiceReceivers-api
+    hostname: ServiceReceivers
+    depends_on:
+        - consul-server
+    networks:
+      - consul
+    build:
+      context: .
+      dockerfile: ServiceReceivers.WebApi.Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+     - ServiceConfig__ServiceDiscoveryAddress=http://service-registry:8500/
+     - ServiceConfig__ServiceAddress=http://ServiceReceivers
+    ports: 
+      - "5002:80"
+      
+networks:
+  consul:
+    driver: bridge

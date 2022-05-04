@@ -1,0 +1,15 @@
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\Services.Application.deps.json
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\Services.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\ref\Services.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\Services.Application.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\Services.Domain.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\bin\Debug\net5.0\Services.Domain.pdb
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.csproj.AssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.AssemblyInfoInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.AssemblyInfo.cs
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\ref\Services.Application.dll
+C:\Users\khushalkapoor\source\repos\UCNAGP\Services\Services.Application\obj\Debug\net5.0\Services.Application.pdb
